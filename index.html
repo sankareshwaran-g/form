@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="./Facebook-Logo.png" alt="logo">
+    </div>
+    
+    <div class="container">
+        <div class="heading">
+            <h2>Create a new account</h2>
+            <p>It's quick and easy.</p>
+        </div>
+        <div class="line"></div>
+        <form id="form" class="form">
+            <div class="formControl">
+                <input type="text" id="firstName" placeholder="First Name">
+                <input type="text" id="secondName" placeholder="Second Name">
+                <small></small>
+            </div>
+            <div class="formControlEmail">
+                <input type="text" id="email-mobile" placeholder="Mobile number or Email address">
+                <small></small>
+            </div>
+            <div class="formControl">
+                <input type="password" id="password1" placeholder="Enter Password">
+
+                <input type="password" id="password2" placeholder="confirm password"><small></small>
+            </div>
+            <!-- <div class="formControlDOB">
+                <label for="text">Date of Birth</label><br>
+                <input type="number" id="date">
+                <input type="text" id="month">
+                <input type="number" id="year">
+                <small></small>
+            </div> -->
+            <div class="formControlDob">
+                <label for="text">Date of Birth</label><br>
+                <select name="date" id="date">
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+                <select name="month" id="month">
+                    <option value="jan">Jan</option>
+                    <option value="feb">Feb</option>
+                    <option value="mar">Mar</option>
+                    <option value="apr">Apr</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                <small></small>
+                </select>
+                <select name="month" id="month">
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    </select>
+            </div>
+            <div class="formControlGender">
+                <label for="text">Gender</label><br>
+                <span>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male">
+                </span>
+                <span>
+                    <label for="female">Female</label>
+                    <input type="radio" id="female">
+                </span>
+                <span>
+                    <label for="custom">Custom</label>
+                    <input type="radio" id="custom">
+                </span>
+            </div>
+            <div class="formControl">
+                <p>People who use our service may have uploaded your contact information to Facebook. Learn more.</p>
+            </div>
+            <div class="formControl">
+                <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS
+                    notifications from us and can opt out at any time.</p>
+            </div>
+            <div>
+                <button>Sign Up</button>
+            </div>
+            <div class="formControlLink">
+                <a href="#">Already have an account?</a>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+.logo{
+    /* margin: 0 auto; */
+    /* margin-top: 0px; */
+    margin-left: 250px;
+    /* align-items: center;
+    justify-content: center; */
+    /* border: 2px solid red; */
+}
+.logo img {
+    width: 50%;
+    /* height: auto; */
+    /* align-items: center; */
+}
+
+.heading {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgb(164, 162, 162);;
+}
+
+.heading h2 {
+    color: rgb(85, 86, 87);
+    margin-bottom: 10px;
+}
+
+.heading p {
+    color: rgb(96, 97, 98);
+}
+
+.container {
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px rgba(45, 43, 43, 0.355);
+    overflow: hidden;
+    max-width: 100%;
+    width: 35%;
+    height: 87vh;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.formControl {
+    /* margin-bottom: px; */
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.formControl label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.formControl input {
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px;
+    width: 45%;
+    outline: none;
+}
+
+.formControlEmail input {
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px;
+    width: 91%;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.formControlDob {
+    margin-bottom: 15px;
+}
+
+.formControlDob select {
+    margin-top: 10px;
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 30%;
+    outline: none;
+}
+
+.formControlGender input {
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px;
+    width: 30%;
+    outline: none;
+
+}
+
+.formControlGender span {
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    display: inline-block;
+    /* flex: 1 0 auto; */
+    /* font-weight: normal; */
+    /* height: 36px; */
+    margin: 8px 0px 6px;
+    border-radius: 10px;
+    padding: 0;
+    position: relative;
+    width: 30%;
+}
+
+.formControlGender span label {
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0 28px 0 10px;
+    width: 100%;
+}
+
+.formControlGender span input {
+    height: 18px;
+    margin-top: 10px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.formControl p {
+    padding: 10px 0 5px;
+    font-size: 12px;
+    width: 92%;
+    color: #2e2e2f;
+}
+
+.form button {
+    background-color: rgb(23, 175, 3);
+    border: none;
+    color: white;
+    display: block;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formControlLink {
+    margin: 0 auto;
+    /* /* align-items: center; */
+    justify-content: center; 
+    padding: 20px 125px;
+}
+
+.formControlLink a {
+    color: #0000ff;
+	text-decoration: none;
+}
